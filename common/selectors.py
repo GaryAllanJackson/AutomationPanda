@@ -1,0 +1,1 @@
+ultimate_qa_link_link_text = "Ultimate QA Automation Practice"
