@@ -2,11 +2,12 @@ import time
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-from selenium.webdriver.ie.webdriver import WebDriver
+# from selenium.webdriver.ie.webdriver import WebDriver
 from selenium.webdriver.support.expected_conditions import element_to_be_clickable
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
+from common.function_library import Functions
 
 
 class SelectorsHubPracticePage:
@@ -56,6 +57,8 @@ class SelectorsHubPracticePage:
             table_cells = tr.find_elements(By.TAG_NAME, "td")
             for td in table_cells:
                 print(td.text)
+        funct = Functions(self.driver)
+        funct.get_json_from_api("http://localhost:5289/games")
 
 
 

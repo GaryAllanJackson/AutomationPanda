@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="104e8dc9-a14d-452c-bccf-ecf2f5763f27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AutomationPanda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/function_library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/selectors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/selectors_hub_practice_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ultimate_qa_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_selectors_hub_practice_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ultimate_qa_page.py" afterDir="false" />
+    <list default="true" id="104e8dc9-a14d-452c-bccf-ecf2f5763f27" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/function_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/function_library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TestLogs.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/TestLogs.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/selectors_hub_practice_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/selectors_hub_practice_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/test_selectors_hub_practice_page_report1.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_selectors_hub_practice_page_report1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GaryAllanJackson"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/GaryAllanJackson/AutomationPanda.git",
@@ -81,14 +71,27 @@
       <option name="presentableId" value="Default" />
       <updated>1745426306467</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1745950028593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745950028593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/common/function_library.py</url>
-          <line>94</line>
+          <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

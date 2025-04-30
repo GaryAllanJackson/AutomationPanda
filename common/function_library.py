@@ -3,6 +3,7 @@ import time
 # from ftplib import print_line
 
 import openpyxl
+import requests
 from selenium.webdriver.common.by import By
 
 from common import variables
@@ -226,3 +227,16 @@ class Functions:
             return "Pass"
         else:
             return "Fail"
+
+    def get_json_from_api(self, api_url):
+        # requests.get(self.driver.current_url).json()
+        json_data = requests.get(api_url).json()
+        min_name_len = 35
+        min_genre_len = 17
+        spaces = (min_name_len - len('name')) * "."
+        g_spaces = (min_genre_len - len('genre')) * "."
+        print(f"Id\tName{spaces}\tGenre{g_spaces}\tPrice\tRelease Date")
+        for game in json_data:
+            spaces = (min_name_len - len(game['name']))* "."
+            g_spaces = (min_genre_len - len(game['genre']))* "."
+            print(f"{game['id']}\t{game['name']}{spaces}\t{game['genre']}{g_spaces}\t,{game['price']}\t{game['releaseDate']}\n")
