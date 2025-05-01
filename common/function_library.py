@@ -1,5 +1,7 @@
 import datetime
 import time
+from ftplib import print_line
+
 # from ftplib import print_line
 
 import openpyxl
@@ -171,8 +173,10 @@ class Functions:
         # need to account for self.driver being unavailable because quit() was already initiated
         # if self.driver.session_id is None:
         if action.lower() == "close driver":
+            print("...")
             sheet.cell(row, 7).value = "n/a"
             self.set_close_driver_theme(sheet, row)
+            print(" \n ")
         else:
             sheet.cell(row, 7).value = self.driver.current_url
         workbook.save(self.log_file_name)
@@ -230,6 +234,7 @@ class Functions:
 
     def get_json_from_api(self, api_url):
         # requests.get(self.driver.current_url).json()
+        print("in get_json_from_api")
         json_data = requests.get(api_url).json()
         min_name_len = 35
         min_genre_len = 17

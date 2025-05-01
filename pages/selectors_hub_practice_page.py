@@ -57,8 +57,7 @@ class SelectorsHubPracticePage:
             table_cells = tr.find_elements(By.TAG_NAME, "td")
             for td in table_cells:
                 print(td.text)
-        funct = Functions(self.driver)
-        funct.get_json_from_api("http://localhost:5289/games")
+
 
 
 

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="104e8dc9-a14d-452c-bccf-ecf2f5763f27" name="Changes" comment="Initial commit">
+    <list default="true" id="104e8dc9-a14d-452c-bccf-ecf2f5763f27" name="Changes" comment="Added a call to the JSON endpoint on my local machine.">
+      <change afterPath="$PROJECT_DIR$/pages/automation_bookstore_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/games_api_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_automation_bookstore_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_games_api_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/function_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/function_library.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/TestLogs.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/TestLogs.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/selectors_hub_practice_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/selectors_hub_practice_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/test_selectors_hub_practice_page_report1.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_selectors_hub_practice_page_report1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="GaryAllanJackson &lt;gary.a.jackson@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -79,19 +87,44 @@
       <option name="project" value="LOCAL" />
       <updated>1745950028593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a call to the JSON endpoint on my local machine.">
+      <option name="closed" value="true" />
+      <created>1746031100989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746031100989</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added a call to the JSON endpoint on my local machine.">
+      <option name="closed" value="true" />
+      <created>1746031151239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746031151239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added a call to the JSON endpoint on my local machine.">
+      <option name="closed" value="true" />
+      <created>1746031176102</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746031176102</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added a call to the JSON endpoint on my local machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a call to the JSON endpoint on my local machine." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/common/function_library.py</url>
-          <line>95</line>
+          <line>97</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
